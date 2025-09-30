@@ -1,0 +1,15 @@
+# Node.js riippuvuudet
+node_modules/
+
+# Lokit
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dockerin väliaikaiset tiedostot
+*.pid
+*.seed
+*.pid.lock
+
+# VSCode asetukset
+.vscode/
