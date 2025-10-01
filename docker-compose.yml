@@ -21,3 +21,11 @@ services:
       - "3000:3000"
     depends_on:
       - db
+
+  serverb:
+    build: ./serverB
+    container_name: server_b
+    ports:
+      - "4000:4000"
+    depends_on:
+    - db
